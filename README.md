@@ -55,10 +55,13 @@ The Plotly Python library is an interactive, open-source plotting library that s
     - A Choropleth Map is a map composed of colored polygons. It is used to represent spatial variations of a quantity. Below we show how to create Choropleth Maps using the Plotly Express 'px.choropleth'
 
     - **Choropleth World Map**
-
+       ![](images/image01.png)
 
 
     - **Choropleth Continent Map**
+
+      ![](images/image02.png)
+      ![](images/image03.png)
  
 
 - ***Line Plots And Sctter Plots***
@@ -70,18 +73,24 @@ of India with respect to the Phases of the Nationwide lockdown.
   - **Line Plots**
       - *New Cases*:
    
+      ![](images/image04.png)
+      ![](images/image05.png)
 
       - *New Deaths*:
-   
+
+      ![](images/image06.png)
+      ![](images/image07.png)
   - As we can see the plotted line plots.India had recorded 5,85,474 cases of COVID-19 and 17,412 deaths. The day's toll was the biggest surge in deaths since 2,003 fatalities were reported on June 16, with most of those numbers comprising earlier deaths confirmed during data reconciliation processes in Maharashtra and Delhi.
 
   - **Scatter Plots**
 
      - *Confirmed Active Cases*:
-   
+ 
+   ![](images/image08.png)
 
      - *Death and Recovery Cases*:
-   
+
+   ![](images/image010.png)
 
 
 - ***Pie Charts***
@@ -90,24 +99,30 @@ In 'px.pie', data visualized by the sectors of the pie is set in values. The sec
 
     - *Percentage of Total Deaths in 20 Most affected Countries*:
 
+    ![](images/image011.png)
 
     - *Percentage of Total Recovered in 20 Most affected Countries*:
- 
+
+    ![](images/image012.png)
 
 - ***Bar Charts***
     - With 'px.bar', each row of the DataFrame is represented as a rectangular mark. For Bar Charts we will be comparing the Total Tests and Deaths/Million of Top 10 Affected Countries.
 
     - *Comparison of Total Tests of 10 Most Affected Countries*:
- 
+
+    ![](images/image013.png)
 
     - *Comparison of Deaths/Million of 10 Most Affected Countries*:
  
-
+    ![](images/image014.png)
+  
     - *Comparison of Cases/Million of 10 Most Affected Countries*:
- 
+
+    ![](images/image015.png)
 
     - *Comparison of Tests/Million of 10 Most Affected Countries*:
 
+    ![](images/image016.png)
 
 - ***Bubble Charts***
     - A bubble chart is a scatter plot in which a third dimension of the data is shown through the size of markers. 
@@ -115,16 +130,28 @@ For other types of scatter plot, see the line and scatter page.
 
     - *Bubble Plot for Total Cases v Total Deaths of 50 Most Affected Countries*:
 
+    ![](images/image017.png)
 
 - ***SunBurst Chart***
     - Sunburst plots visualize hierarchical data spanning outwards radially from root to leaves. The sunburst sector hierarchy is determined by the entries in labels (names in px.sunburst) and in parents.
 The root starts from the center and children are added to the outer rings. Let's Analyse Active Cases of Top 50 Countries here.
 
-- *Sunburst Chart*
+    - *Sunburst Chart*
 
+    ![](images/image018.png)
 
 - ***3D-Plot***
     - Like the 2D scatter plot 'px.scatter', the 3D function 'px.scatter_3d' plots individual data in three-dimensional space.
 Here Let's do it on Total Cases, Total Deaths and Total Recovered of 20 Most Affected Countries. Don't forget to move the 3D Plot
 
     - *3D Plot of Total Cases, Total Deaths and Total Recovered of Top 20 Affected Countries*
+
+    ![](images/image019.png)
+
+
+- ***Word Map***
+    - This Map uses word as reference for providing information like size of the words in the map represents the quantity of the particular attribute.
+
+     ![](images/image020.png)
+
+### Thank You
